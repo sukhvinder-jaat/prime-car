@@ -23,6 +23,28 @@
     --clr-lightblack: #1A191A;
 }
 
+
+@font-face {
+    font-family: 'American Captain';
+    src: url(../fonts/American\ Captain.otf);
+    src: url(../fonts/American\ Captain.ttf);
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+}
+
+.ff_sf_pro {
+    font-family: 'sf-pro-display';
+}
+
+.ff_american {
+    font-family: 'American Captain';
+}
+
 /* FONT SIZE CLASSES */
 
 .fs_15 {
@@ -102,14 +124,14 @@
 
 /* COLORS CLASSES */
 
-.bg_darkblack{
+.bg_darkblack {
     background-color: var(--clr-darkblack);
 }
 
-.bg_lightblack{
+.bg_lightblack {
     background-color: var(--clr-lightblack);
 }
 
-.clr_white{
+.clr_white {
     color: var(--clr-white);
 }
