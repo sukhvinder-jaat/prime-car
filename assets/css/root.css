@@ -1,0 +1,115 @@
+:root {
+    /* Font size */
+    --fs-15: 15px;
+    --fs-17: 17px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-30: 30px;
+    --fs-32: 32px;
+    --fs-35: 35px;
+    --fs-56: 56px;
+    --fs-100: 100px;
+    --fs-110: 110px;
+    --fs-120: 120px;
+    --fs-130: 130px;
+    --fs-200: 200px;
+    --fs-247: 247px;
+
+
+
+    /* COLORS */
+    --clr-white: #ffffff;
+    --clr-darkblack: #161616;
+    --clr-lightblack: #1A191A;
+}
+
+/* FONT SIZE CLASSES */
+
+.fs_15 {
+    --fs-15: 15px;
+}
+
+.fs_17 {
+    --fs-17: 17px;
+}
+
+.fs_20 {
+    --fs-20: 20px;
+}
+
+.fs_24 {
+    --fs-24: 24px;
+}
+
+.fs_30 {
+    --fs-30: 30px;
+}
+
+.fs_32 {
+    --fs-32: 32px;
+}
+
+.fs_35 {
+    --fs-35: 35px;
+}
+
+.fs_56 {
+    --fs-56: 56px;
+}
+
+.fs_100 {
+    --fs-100: 100px;
+}
+
+.fs_110 {
+    --fs-110: 110px;
+}
+
+.fs_120 {
+    --fs-120: 120px;
+}
+
+.fs_130 {
+    --fs-130: 130px;
+}
+
+.fs_200 {
+    --fs-200: 200px;
+}
+
+.fs_247 {
+    --fs-247: 247px;
+}
+
+/* FONT WEIGHT */
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+
+/* COLORS CLASSES */
+
+.bg_darkblack{
+    background-color: var(--clr-darkblack);
+}
+
+.bg_lightblack{
+    background-color: var(--clr-lightblack);
+}
+
+.clr_white{
+    color: var(--clr-white);
+}
