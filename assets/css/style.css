@@ -1,3 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
 @font-face {
     font-family: 'American Captain';
     src: url(../fonts/American\ Captain.otf);
@@ -8,22 +16,89 @@
     background-image: url(../img/Background_secton_1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 649px;
+    /* height: 649px; */
 }
 
 .us_button {
-    padding: 8px 32px;
+    padding: 5px 32px;
     border-radius: 8px;
 }
-.fw_700{
+
+.fw_700 {
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'sf-pro-display';
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
 }
-.ff_sf_pro{
-    font-family: 'sf-pro-display';
+
+@media (max-width:1200px) {
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: #161616;
+        width: 100%;
+        height: 100vh !important;
+        justify-content: center;
+        transition: 0.9s;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 4;
+        z-index: 3 !important;
+    }
+
+    nav ul li {
+        padding-left: 0px;
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .line {
+        background-color: #ffffff;
+        padding: 3px 18px;
+        border-radius: 10px;
+        margin-top: 3px;
+        z-index: 3;
+    }
+
+    .nav_button_padding_xl {
+        padding: 0px 25px;
+    }
+
+    .us_button {
+        height: 69px;
+        width: 202px;
+    }
+}
+
+.overflowhiden {
+    overflow: hidden !important;
+}
+
+.text_sec_1_shadow {
+    text-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+}
+
+.mx_650 {
+    width: 650px;
+}
+
+.l_height_130 {
+    line-height: 130px;
+}
+
+.mx_322 {
+    max-width: 322px;
+}
+
+.button_up:hover img {
+    transform: translateY(-10%);
 }
