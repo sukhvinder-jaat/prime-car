@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/Neue\ Helvetica\ Condensed\ BQ\ Regular.otf);
+}
+
+.ff_Helvetica {
+    font-family: 'Helvetica';
+}
+
+
 :root {
     /* Font size */
     --fs-15: 15px;
@@ -102,14 +112,14 @@
 
 /* COLORS CLASSES */
 
-.bg_darkblack{
+.bg_darkblack {
     background-color: var(--clr-darkblack);
 }
 
-.bg_lightblack{
+.bg_lightblack {
     background-color: var(--clr-lightblack);
 }
 
-.clr_white{
+.clr_white {
     color: var(--clr-white);
 }
