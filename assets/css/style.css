@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'American Captain';
+    src: url(../fonts/American\ Captain.otf);
+    src: url(../fonts/American\ Captain.ttf);
+}
+
+.ff_american {
+    font-family: 'American Captain';
+}
+.fw_700{
+    font-weight: 400;
+}
