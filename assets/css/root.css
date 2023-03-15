@@ -134,13 +134,16 @@
 /* COLORS CLASSES */
 
 .bg_darkblack {
-    background-color: var(--clr-darkblack);
+    background-color: var(--clr-darkblack) !important;
 }
 
 .bg_lightblack {
-    background-color: var(--clr-lightblack);
+    background-color: var(--clr-lightblack) !important;
 }
 
 .clr_white {
-    color: var(--clr-white);
+    color: var(--clr-white) !important;
+}
+.us_button_border{
+    border: 2px solid var(--clr-white);
 }

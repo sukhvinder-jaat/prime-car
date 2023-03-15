@@ -10,7 +10,10 @@
     background-image: url(../img/Background_secton_1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    height: 649px;
 }
 
-
-
+.us_button {
+    padding: 8px 32px;
+    border-radius: 8px;
+}
