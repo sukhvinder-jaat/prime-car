@@ -39,12 +39,11 @@
     src: url(../fonts/American\ Captain.otf);
     src: url(../fonts/American\ Captain.ttf);
 }
-
 @font-face {
     font-family: 'sf-pro-display';
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+    src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+    src:url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
 .ff_sf_pro {

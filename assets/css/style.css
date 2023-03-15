@@ -6,11 +6,6 @@
     list-style: none !important;
 }
 
-@font-face {
-    font-family: 'American Captain';
-    src: url(../fonts/American\ Captain.otf);
-    src: url(../fonts/American\ Captain.ttf);
-}
 
 .bg_section_1 {
     background-image: url(../img/Background_secton_1.png);
@@ -28,12 +23,6 @@
     font-weight: 400;
 }
 
-@font-face {
-    font-family: 'sf-pro-display';
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
-}
 
 @media (max-width:1200px) {
     nav ul {
@@ -101,4 +90,8 @@
 
 .button_up:hover img {
     transform: translateY(-10%);
+}
+
+.ff_sf_pro {
+    font-family: 'sf-pro-display';
 }
