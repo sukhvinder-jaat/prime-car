@@ -1,9 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none !important;
-    list-style: none !important;
-    box-sizing: border-box !important;
+@font-face {
+    font-family: 'American Captain';
+    src: url(../fonts/American\ Captain.otf);
+    src: url(../fonts/American\ Captain.ttf);
 }
 
 .bg_section_1 {
@@ -16,4 +14,16 @@
 .us_button {
     padding: 8px 32px;
     border-radius: 8px;
+}
+.fw_700{
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+}
+.ff_sf_pro{
+    font-family: 'sf-pro-display';
 }
