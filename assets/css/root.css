@@ -7,27 +7,6 @@
     font-family: 'Helvetica';
 }
 
-@font-face {
-    font-family: 'sf-pro-display';
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
-}
-
-.ff_sf_pro {
-    font-family: 'sf-pro-display';
-}
-
-@font-face {
-    font-family: 'American Captain';
-    src: url(../fonts/American\ Captain.otf);
-    src: url(../fonts/American\ Captain.ttf);
-}
-
-.ff_american {
-    font-family: 'American Captain';
-}
-
 
 :root {
     /* Font size */
@@ -79,59 +58,59 @@
 /* FONT SIZE CLASSES */
 
 .fs_15 {
-    --fs-15: 15px;
+    font-size: var(--fs-15);
 }
 
 .fs_17 {
-    --fs-17: 17px;
+    font-size: var(--fs-17);
 }
 
 .fs_20 {
-    --fs-20: 20px;
+    font-size: var(--fs-20);
 }
 
 .fs_24 {
-    --fs-24: 24px;
+    font-size: var(--fs-24);
 }
 
 .fs_30 {
-    --fs-30: 30px;
+    font-size: var(--fs-30);
 }
 
 .fs_32 {
-    --fs-32: 32px;
+    font-size: var(--fs-32);
 }
 
 .fs_35 {
-    --fs-35: 35px;
+    font-size: var(--fs-35);
 }
 
 .fs_56 {
-    --fs-56: 56px;
+    font-size: var(--fs-56);
 }
 
 .fs_100 {
-    --fs-100: 100px;
+    font-size: var(--fs-100);
 }
 
 .fs_110 {
-    --fs-110: 110px;
+    font-size: var(--fs-110);
 }
 
 .fs_120 {
-    --fs-120: 120px;
+    font-size: var(--fs-120);
 }
 
 .fs_130 {
-    --fs-130: 130px;
+    font-size: var(--fs-130);
 }
 
 .fs_200 {
-    --fs-200: 200px;
+    --font-size: var(--fs-200);
 }
 
 .fs_247 {
-    --fs-247: 247px;
+    font-size: var(--fs-247);
 }
 
 /* FONT WEIGHT */
