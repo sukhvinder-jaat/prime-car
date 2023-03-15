@@ -7,6 +7,21 @@
     font-family: 'Helvetica';
 }
 
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+}
+
+.ff_sf_pro {
+    font-family: 'sf-pro-display';
+}
+
+.ff_american {
+    font-family: 'American Captain';
+}
+
 
 :root {
     /* Font size */
