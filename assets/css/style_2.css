@@ -3,3 +3,11 @@
         max-width:  1720px;
     }
 }
+@media (min-width:1620) {
+    .align_center{
+        align-items: center;
+    }
+    .me_5{
+        margin-right: 48px;
+    }
+}
