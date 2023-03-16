@@ -85,10 +85,43 @@
     transform: translateY(-10%);
 }
 
+.be_height {
+    line-height: 130px;
+}
+
+.speed_height {
+    line-height: 40px;
+}
+
+.z-index-3 {
+    z-index: 3 !important;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+
+.play_center {
+    right: 50%;
+    top: 50%;
+    transform: translate(-50% -50%) ;
+
+}
+
+.play_height {
+    width: 70px;
+    height: 70px;
+}
+
 @media (min-width:1200px) {
     .more_height {
         line-height: 130px;
     }
+
+    .container_xxxl {
+        max-width: 1720px;
+    }
+
 
 }
 
@@ -99,6 +132,10 @@
 
     .more_height {
         line-height: 100px;
+    }
+
+    .be_height {
+        line-height: 90px;
     }
 }
 
@@ -134,11 +171,13 @@
 
 
 }
+
 @media (max-width:500px) {
-    .text_center_500{
+    .text_center_500 {
         text-align: center;
     }
 }
+
 .d_grid {
     display: grid;
     gap: 0;
