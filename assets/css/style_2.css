@@ -65,18 +65,34 @@
     transform: translate(-50% , -50%);
 }
 
-
-
-
-
-
+.lh_130{
+    line-height: 130px;
+}
+.play_icon{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.green_star{
+    left: 0;
+    top: 57px;
+}
+.blue_star{
+    right:0;
+    bottom: -10px;
+}
+.cursior_pointer{
+    cursor: pointer;
+}
 
 
 @media (min-width:992px) {
     .ps-lg-65 {
         padding-left: 65px !important;
     }
-
+.index_2_992{
+    z-index: 2;
+}
     .ms-lg-65 {
         margin-left: 65px;
     }
