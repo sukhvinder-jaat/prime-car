@@ -53,18 +53,55 @@
                     </span>
                 </div>
                 <div class="d-flex align-items-center align-items-sm-end flex-column pb-5 mb-md-5">
-                    <p class="ff_american fs_130 fw_400 clr_white more_width text-center text-sm-end more_height">More economy, same speed
+                    <p class="ff_american fs_130 fw_400 clr_white  text-center text-sm-end more_height">More economy,
+                        <br> same speed
                     </p>
-                    <p class="sf-pro-display  fs_32 fw_600 clr_white most_width text-center text-sm-end">The most beloved cars of the
+                    <p class="sf-pro-display  fs_32 fw_600 clr_white most_width text-center text-sm-end">The most
+                        beloved cars of the
                         moment for those who want to ride in style without spending too much</p>
                     <a href="#"
-                        class="sf-pro-display fw_600 fs_24 clr_white d-flex align-items-center justify-content-center us_button_border us_button button_up">Discover <img class="img-fluid ps-3 pt-1 " src="./assets/img/arrow.png" alt=""></a>
+                        class="sf-pro-display fw_600 fs_24 clr_white d-flex align-items-center justify-content-center us_button_border us_button button_up">Discover
+                        <img class="img-fluid ps-3 pt-1 " src="./assets/img/arrow.png" alt=""></a>
                 </div>
             </div>
         </nav>
     </div>
 
+    <!-- slider -->
+    <div class="bg_darkblack pt-5">
+        <div class="container pb-3">
+            <p class="ff_american fw_400 fs_110 text_center_500 clr_white mb-0">The cars that are hot right now</p>
+            <p class="ff_sf_pro fw_400 fs_24 text_center_500 clr_white mt-0">Buy yours and be the most stylish in the neighborhood
+            </p>
+        </div>
 
+        <div class="overflow-hidden ">
+            <div class="slider d-flex">
+                <div class="slider_img_1"><img class="w-100 h_200" src="/assets/img/Car_2.png" alt=""></div>
+                <div class="slider_img_2"><img class="w-100 h_200" src="/assets/img/car_3.png" alt=""></div>
+                <div class="slider_img_3"><img class="w-100 h_200" src="/assets/img/Car_4.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/Car1.png" alt=""></div>
+                <div class="slider_img_1"><img class="w-100 h_200" src="/assets/img/Car_2.png" alt=""></div>
+                <div class="slider_img_2"><img class="w-100 h_200" src="/assets/img/car_3.png" alt=""></div>
+                <div class="slider_img_3"><img class="w-100 h_200" src="/assets/img/Car_4.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/Car1.png" alt=""></div>
+            </div>
+        </div>
+        <div class=" pb-5 overflow-hidden">
+            <div class="slider_2 d-flex">
+                <div class="slider_img_1"><img class="w-100 h_200" src="/assets/img/bottom_car2.png" alt=""></div>
+                <div class="slider_img_2"><img class="w-100 h_200" src="/assets/img/bottom_car3.png" alt=""></div>
+                <div class="slider_img_3"><img class="w-100 h_200" src="/assets/img/bottom_car4.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/bottom_car5.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/bottom_car1.png" alt=""></div>
+                <div class="slider_img_1"><img class="w-100 h_200" src="/assets/img/bottom_car2.png" alt=""></div>
+                <div class="slider_img_2"><img class="w-100 h_200" src="/assets/img/bottom_car3.png" alt=""></div>
+                <div class="slider_img_3"><img class="w-100 h_200" src="/assets/img/bottom_car4.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/bottom_car5.png" alt=""></div>
+                <div class="slider_img_4"><img class="w-100 h_200" src="/assets/img/bottom_car1.png" alt=""></div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -111,7 +148,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         $('.slider').slick({
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 500,
@@ -119,7 +156,7 @@
                 {
                     breakpoint: 1400,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 3.3,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true
@@ -128,7 +165,50 @@
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+    <script>
+        $('.slider_2').slick({
+            slidesToShow: 5.5,
+            slidesToScroll: 0.5,
+            autoplay: true,
+            autoplaySpeed: 500,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4.5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 2.5,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true
