@@ -31,6 +31,10 @@
     --clr-white: #ffffff;
     --clr-darkblack: #161616;
     --clr-lightblack: #1A191A;
+    --clr-dark_gray: #373737;
+    --clr-green: #0D7B61;
+    --clr-brown_red: #872323;
+    --clr-blue: #0A3F8F;
 }
 
 
@@ -39,10 +43,11 @@
     src: url(../fonts/American\ Captain.otf);
     src: url(../fonts/American\ Captain.ttf);
 }
+
 @font-face {
     font-family: 'sf-pro-display';
     src: url(../fonts/SFPRODISPLAYBOLD.OTF);
-    src:url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
     src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
 }
 
@@ -105,7 +110,7 @@
 }
 
 .fs_200 {
-    --font-size: var(--fs-200);
+    font-size: var(--fs-200);
 }
 
 .fs_247 {
@@ -147,6 +152,22 @@
 
 .us_button_border {
     border: 2px solid var(--clr-white);
+}
+
+.clr_darkgray {
+    color: var(--clr-dark_gray);
+}
+
+.bg_green {
+    background-color: var(--clr-green);
+}
+
+.bg_brown_red {
+    background-color: var(--clr-brown_red);
+}
+
+.bg_blue {
+    background-color: #0A3F8F;
 }
 
 @media (max-width:1200px) {
