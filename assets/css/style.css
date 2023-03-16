@@ -107,6 +107,11 @@
         line-height: 90px;
     }
 
+    .bg_section_1 {
+        background-size: cover;
+        background-position: center;
+    }
+
     .most_width {
         max-width: 260px;
     }
@@ -127,7 +132,5 @@
         line-height: 60px;
     }
 
-    .bg_section_1 {
-        background-size: cover;
-    }
+
 }
