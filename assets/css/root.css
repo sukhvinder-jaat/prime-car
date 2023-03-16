@@ -154,7 +154,6 @@
     border: 2px solid var(--clr-white);
 }
 
-<<<<<<< HEAD
 .clr_darkgray {
     color: var(--clr-dark_gray);
 }
@@ -169,7 +168,8 @@
 
 .bg_blue {
     background-color: #0A3F8F;
-=======
+}
+
 @media (max-width:1400px) {
     :root {
         /* Font size */
@@ -188,7 +188,6 @@
         --fs-200: 200px;
         --fs-247: 247px;
     }
->>>>>>> 9c087305da3f0780e6f5fb7cbb0088e7ac759ea7
 }
 
 @media (max-width:1200px) {
