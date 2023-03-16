@@ -35,6 +35,7 @@
     --clr-green: #0D7B61;
     --clr-brown_red: #872323;
     --clr-blue: #0A3F8F;
+    --clr-gray: #BDBDBD;
 }
 
 
@@ -157,7 +158,9 @@
 .clr_darkgray {
     color: var(--clr-dark_gray);
 }
-
+.clr_gray{
+    color: var(--clr-gray);
+}
 .bg_green {
     background-color: var(--clr-green);
 }
@@ -169,6 +172,7 @@
 .bg_blue {
     background-color: #0A3F8F;
 }
+
 
 @media (max-width:1400px) {
     :root {
