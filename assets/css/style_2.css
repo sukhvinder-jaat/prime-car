@@ -100,11 +100,7 @@
 /* 
 .max_w_110 {
     max-width: 110px;
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 4d26f7ad8ae45b012ed2508ff1fd0e11dd28ee93
 
 .hover_gradient:hover .slider_gradient {
     z-index: 1;
