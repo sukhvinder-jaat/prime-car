@@ -81,7 +81,7 @@
         <div class="container_xxxl container pb-3 ">
             <h2 class="ff_american  fs_130 fw_400 clr_white text-center py-5">About Us</h2>
             <div class="row align_center object-fit-cover flex-wrap-reverse pb-5 position-relative z-2">
-                <div class="col-xxl-6 col-12 pt_4 ">
+                <div class="col-xxl-6 col-12 pt_4 " data-aos="fade-up">
                     <p class="fs_24 fw_400 ff_sf_pro clr_white lh_28 pe_5 mb-4">We pride ourselves at being able to get
                         our
                         customer into the
@@ -110,7 +110,7 @@
                         looking for.
                     </p>
                 </div>
-                <div class="col-xxl-6 col-12 ">
+                <div class="col-xxl-6 col-12 " data-aos="fade-down">
                     <img class="w-100 h-100" src="./assets/img/sec2_car.png" alt="car">
                 </div>
             </div>
@@ -584,6 +584,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init({
+                duration: 1200,
+            })
+    </script>
     <script>
         $('.gallery').slick({
             slidesToShow: 3.5,
