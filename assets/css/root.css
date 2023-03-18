@@ -36,6 +36,7 @@
     --clr-brown_red: #872323;
     --clr-blue: #0A3F8F;
     --clr-gray: #BDBDBD;
+    --clr-off-white:#F2F2F2;
 }
 
 
@@ -172,8 +173,21 @@
 .bg_blue {
     background-color: #0A3F8F;
 }
-
-
+.clr_offwhite{
+    color: var(--clr-off-white);
+}
+.outline_none{
+    outline: none;
+}
+.btn_submit{
+    padding: 5px 20px ;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.contact_img{
+    top: 45px;
+    left: 0;
+}
 @media (max-width:1400px) {
     :root {
         /* Font size */
@@ -249,7 +263,7 @@
         --fs-110: 40px;
         --fs-120: 120px;
         --fs-130: 70px;
-        --fs-200: 200px;
+        --fs-200: 158px;
         --fs-247: 247px;
     }
 }
@@ -265,11 +279,11 @@
         --fs-32: 20px;
         --fs-35: 35px;
         --fs-56: 56px;
-        --fs-100: 100px;
+        --fs-100: 80px;
         --fs-110: 40px;
-        --fs-120: 120px;
+        --fs-120: 85px;
         --fs-130: 60px;
-        --fs-200: 200px;
+        --fs-200: 158px;
         --fs-247: 247px;
     }
 }
@@ -285,11 +299,11 @@
         --fs-32: 20px;
         --fs-35: 35px;
         --fs-56: 56px;
-        --fs-100: 100px;
+        --fs-100: 80px;
         --fs-110: 40px;
-        --fs-120: 120px;
+        --fs-120: 85px;
         --fs-130: 50px;
-        --fs-200: 200px;
+        --fs-200: 158px;
         --fs-247: 247px;
     }
 }
