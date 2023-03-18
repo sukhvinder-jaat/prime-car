@@ -210,7 +210,7 @@
     background: white;
     height: 3px;
     width: 0px;
-    bottom: -5px;
+    bottom: 0px;
     left: 0;
     transition: all 0.5s linear;
 }
