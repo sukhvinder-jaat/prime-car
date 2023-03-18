@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header>
         <nav class="bg_section_1 pt-2 pb-5">
             <div class="container container_xxxl">
@@ -37,11 +38,11 @@
                         <ul class="d-flex mb-0 ps-0" id="show">
                             <li class="position-relative ms-3"><a href="#"
                                     class="sf-pro-display fw_600 fs_24 clr_white text_effect">Home</a></li>
-                            <li class="position-relative ms-3"><a href="#"
+                            <li class="position-relative ms-3"><a href="#about"
                                     class="sf-pro-display fw_600 fs_24 clr_white text_effect">About</a></li>
-                            <li class="position-relative ms-3"><a href="#"
+                            <li class="position-relative ms-3"><a href="#benefit"
                                     class="sf-pro-display fw_600 fs_24 clr_white text_effect">Benefits</a></li>
-                            <li class="position-relative ms-3"><a href="#"
+                            <li class="position-relative ms-3"><a href="#car"
                                     class="sf-pro-display fw_600 fs_24 clr_white text_effect">Cars</a></li>
                             <li class="d-flex align-items-center d-block d-xl-none"><a href="#"
                                     class="sf-pro-display fw_600 fs_24 clr_white d-flex align-items-center justify-content-center us_button_border us_button">Contact
@@ -49,7 +50,7 @@
                         </ul>
                     </div>
                     <ul class="d-flex align-items-center mb-0 ps-0" id="shows">
-                        <li class="d-flex align-items-center"><a href="#"
+                        <li class="d-flex align-items-center"><a href="#contact"
                                 class="sf-pro-display fw_600 fs_24 clr_white d-flex align-items-center justify-content-center us_button_border us_button hover_gray">Contact
                                 Us</a></li>
                     </ul>
@@ -74,14 +75,14 @@
         </nav>
     </header>
 
-    <section class="bg_darkblack position-relative overflow-hidden">
+    <section class="bg_darkblack position-relative overflow-hidden" id="about">
         <h3
             class="fs_200 fw_700 clr_darkgray ff_sf_pro position-absolute opacity30 z-0  position_about d-none d-sm-flex">
             about us</h3>
         <div class="container_xxxl container pb-3 ">
             <h2 class="ff_american  fs_130 fw_400 clr_white text-center py-5">About Us</h2>
             <div class="row align_center object-fit-cover flex-wrap-reverse pb-5 position-relative z-2">
-                <div class="col-xxl-6 col-12 pt_4 ">
+                <div class="col-xxl-6 col-12 pt_4 " data-aos="fade-up">
                     <p class="fs_24 fw_400 ff_sf_pro clr_white lh_28 pe_5 mb-4">We pride ourselves at being able to get
                         our
                         customer into the
@@ -110,7 +111,7 @@
                         looking for.
                     </p>
                 </div>
-                <div class="col-xxl-6 col-12 ">
+                <div class="col-xxl-6 col-12 " data-aos="fade-down">
                     <img class="w-100 h-100" src="./assets/img/sec2_car.png" alt="car">
                 </div>
             </div>
@@ -118,14 +119,14 @@
 
     </section>
     <!-- section three -->
-    <section class="bg_lightblack position-relative">
+    <section class="bg_lightblack position-relative" id="benefit">
         <div class="container_xxxl container pt-sm-5 position-relative z-1">
             <h2 class="fw_400 fs_110 clr_white text-center ff_american max_w_1284 mx-auto py-3 lh_110">All the benefits
                 you will get when you shop with us</h2>
             <p class="fw_400 fs_24 ff_sf_pro clr_white text-center">Take advantage of everything you can have now by
                 buying your new car at Prime Car</p>
             <div class="row  pb-sm-5 mt_64 justify-content-evenly ">
-                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5  ">
+                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5  " data-aos="zoom-in">
                     <div class="d-flex flex-column align-items-center px-4 bg_green position-relative pt-5 br_16">
                         <div class="pt-5"></div>
                         <img class="max_w_193 position-absolute map_logo" src="./assets/img/map_logo.png" alt="map">
@@ -138,7 +139,7 @@
                             the store closest to you now</p>
                     </div>
                 </div>
-                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5 ">
+                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5 " data-aos="zoom-in">
                     <div
                         class="d-flex flex-column align-items-center px-4 bg_brown_red position-relative pt-5 br_16 h-100">
                         <div class="pt-5"></div>
@@ -153,7 +154,7 @@
 
                     </div>
                 </div>
-                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5 ">
+                <div class="col_3 col-lg-4 col-sm-6 col-12 mb-5 pt-5 " data-aos="zoom-in">
                     <div class="d-flex flex-column align-items-center px-4 bg_blue position-relative pt-5 br_16 h-100">
                         <div class="pt-5"></div>
                         <img class="max_w_193 position-absolute map_logo" src="./assets/img/keys_logo.png" alt="keys">
@@ -170,7 +171,7 @@
         <img class="position-absolute sec3_bottom_line z-0" src="./assets/img/sec3_line_bottom.png" alt="lines">
     </section>
     <!-- slider -->
-    <div class="bg_lightblack pt-5 overflow-hidden">
+    <div class="bg_lightblack pt-5 overflow-hidden" id="car">
         <div class="container_xxxl container pb-3">
             <p class="ff_american fw_400 fs_110 text_center_500 clr_white mb-0">The cars that are hot right now</p>
             <p class="ff_sf_pro fw_400 fs_24 text_center_500 clr_white mt-0">Buy yours and be the most stylish in the
@@ -425,16 +426,17 @@
             </div>
             <div class="position-relative">
                 <img class="w-100 " src="/assets/img/big_car.png" alt="car">
-                <img class=" play_icon cursior_pointer position-absolute w_50" src="/assets/img/play.png" alt="play icon">
+                <img class=" play_icon cursior_pointer position-absolute w_50" src="/assets/img/play.png"
+                    alt="play icon">
             </div>
         </div>
     </section>
-    <section class="bg_darkblack position-relative">
+    <section class="bg_darkblack position-relative" id="contact">
         <img class="position-absolute contact_img w-50 z-0 d-none d-md-flex" src="./assets/img/CONTACT_US.png"
             alt="contact us">
         <div class="container_xxxl container py-sm-4 position-relative z-1">
             <div class="row justify-content-between align-items-center">
-                <div class="col-xl-5 col-lg-6 col-12 pt-lg-0 pt-5 ">
+                <div class="col-xl-5 col-lg-6 col-12 pt-lg-0 pt-5 " data-aos="zoom-in-right">
                     <h1 class="fs_120 fw_400 clr_white ff_american lh_110">Contact us</h1>
                     <p class="fw_400 fs_30 ff_sf_pro clr_white pe-xxl-4">To find out more information about cars and
                         quotes, fill
@@ -442,7 +444,7 @@
                         by phone.</p>
 
                 </div>
-                <div class="col-xl-5 col-lg-6 col-12 pt-lg-5">
+                <div class="col-xl-5 col-lg-6 col-12 pt-lg-5" data-aos="zoom-in-left">
                     <form class=" my-5">
                         <div class="row ">
                             <div class="col-6 mb-sm-2">
@@ -494,7 +496,8 @@
                             </div>
 
                         </div>
-                        <button class="fs_24 fw_600 clr_white ff_sf_pro bg_darkblack btn_submit mt-sm-5 mt-3">Submit</button>
+                        <button
+                            class="fs_24 fw_600 clr_white ff_sf_pro bg_darkblack btn_submit mt-sm-5 mt-3">Submit</button>
                     </form>
 
                 </div>
@@ -502,7 +505,7 @@
         </div>
     </section>
     <!-- map section -->
-    <div class="m-0 position-relative">
+    <div class="m-0 position-relative " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <img class="position-absolute location_logo" src="./assets/img/location.png" alt="lication icon">
         <iframe class="w-100 h_377"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.29762506141!2d75.72017361542005!3d29.155900566950475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391233d0d797efb7%3A0x90a59576018cca5f!2sRadialcode!5e0!3m2!1sen!2sin!4v1678957914303!5m2!1sen!2sin"
@@ -513,10 +516,11 @@
     <footer class="bg_darkblack">
         <div class="container_xxxl container ">
             <div class="row justify-content-between pb-4 pt-5">
-                <div class="col_3_1520 col-12 ">
+                <div class="col_3_1520 col-12 " data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <h2 class="clr_white fw_400 fs_100 ff_american "><a class="clr_white " href="#">Prime Car</a></h2>
                 </div>
-                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3">
+                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <ul class="d-flex flex-column clr_white  gap-2">
                         <li class="fw_500 fs_35 ff_sf_pro "><a class="clr_white" href="">Where are we</a></li>
                         <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">Georgia</a> </li>
@@ -528,7 +532,8 @@
                         <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">Massachusetts</a> </li>
                     </ul>
                 </div>
-                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3">
+                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <ul class="d-flex flex-column clr_white  gap-2">
                         <li class="fw_500 fs_35 ff_sf_pro "><a class="clr_white" href="">Quick links</a> </li>
                         <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">About Us</a> </li>
@@ -536,18 +541,23 @@
                         <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">Contact Us</a> </li>
                     </ul>
                 </div>
-                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3">
+                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <ul class="d-flex flex-column clr_white  gap-2">
                         <li class="fw_500 fs_35 ff_sf_pro text_effect"><a class="clr_white" href="">Email Us</a> </li>
-                        <li class=" position-relative "><a class="clr_gray text_effect fw_400 fs_17 ff_sf_pro" href="#"><a class="clr_gray" href="">contact@primecar.com</a> 
-                                </a></li>
+                        <li class=" position-relative "><a class="clr_gray text_effect fw_400 fs_17 ff_sf_pro"
+                                href="#"><a class="clr_gray" href="">contact@primecar.com</a>
+                            </a></li>
                     </ul>
                 </div>
-                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3">
+                <div class="col_2_1520 col-lg-3 col-sm-6 col-12 pt-3" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
                     <ul class="d-flex flex-column clr_white ps-lg-65 ps-lg-0 gap-2">
                         <li class="fw_500 fs_35 ff_sf_pro "><a class="clr_white" href=""> Call Us</a></li>
-                        <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">+999-9-999-9999</a> </li>
-                        <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">+111-11-111-1111</a> </li>
+                        <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">+999-9-999-9999</a>
+                        </li>
+                        <li class="fw_400 fs_17 ff_sf_pro clr_gray"><a class="clr_gray" href="">+111-11-111-1111</a>
+                        </li>
                     </ul>
                     <div class="d-flex justify-content-center gap-4 max_w_140 ms-lg-65 ps-5 ps-lg-0 align-items-center">
                         <img src="./assets/img/Facebook.png" alt="Facebook">
@@ -559,9 +569,11 @@
             <div class="d-flex justify-content-between pb-sm-5 pb-4 flex-sm-row flex-column text-center">
                 <div class="d-flex gap-4 pt-4 justify-content-center">
                     <h5 class=" fw_400 fs_15 ff_Helvetica me-0"><a class="clr_white" href="#">Privacy policy</a></h5>
-                    <h5 class=" fw_400 fs_15 ff_Helvetica ms-1"><a class="clr_white" href="#">Term and conditions</a></h5>
+                    <h5 class=" fw_400 fs_15 ff_Helvetica ms-1"><a class="clr_white" href="#">Term and conditions</a>
+                    </h5>
                 </div>
-                <a href="#" class="clr_white fw_400 fs_15 ff_Helvetica pt-3 pt-sm-4">Copyright © 2022 Prime Car. All Rights Reserved
+                <a href="#" class="clr_white fw_400 fs_15 ff_Helvetica pt-3 pt-sm-4">Copyright © 2022 Prime Car. All
+                    Rights Reserved
                 </a>
             </div>
         </div>
@@ -584,6 +596,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
     <script>
         $('.gallery').slick({
             slidesToShow: 3.5,
