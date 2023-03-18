@@ -155,10 +155,12 @@
 .us_button_border {
     border: 2px solid var(--clr-white);
 }
+
 .us_button_border:hover {
     border: 2px solid var(--clr-gray);
 }
-.hover_gray:hover{
+
+.hover_gray:hover {
     color: var(--clr-gray) !important;
 }
 
@@ -274,10 +276,10 @@
         /* Font size */
         --fs-15: 15px;
         --fs-17: 17px;
-        --fs-20: 20px;
+        --fs-20: 19px;
         --fs-24: 24px;
         --fs-30: 30px;
-        --fs-32: 20px;
+        --fs-32: 18px;
         --fs-35: 35px;
         --fs-56: 56px;
         --fs-100: 100px;
