@@ -294,13 +294,13 @@
 @media (max-width:576px) {
     :root {
         /* Font size */
-        --fs-15: 15px;
-        --fs-17: 17px;
-        --fs-20: 20px;
-        --fs-24: 24px;
-        --fs-30: 30px;
+        --fs-15: 12px;
+        --fs-17: 15px;
+        --fs-20: 18px;
+        --fs-24: 20px;
+        --fs-30: 25px;
         --fs-32: 20px;
-        --fs-35: 35px;
+        --fs-35: 28px;
         --fs-56: 56px;
         --fs-100: 80px;
         --fs-110: 40px;
@@ -314,6 +314,7 @@
 @media (max-width:400px) {
     :root {
         /* Font size */
+<<<<<<< HEAD
         --fs-15: 15px;
         --fs-17: 17px;
         --fs-20: 15px;
@@ -321,6 +322,15 @@
         --fs-30: 30px;
         --fs-32: 17px;
         --fs-35: 35px;
+=======
+        --fs-15: 12px;
+        --fs-17: 15px;
+        --fs-20: 18px;
+        --fs-24: 20px;
+        --fs-30: 25px;
+        --fs-32: 20px;
+        --fs-35: 28px;
+>>>>>>> 4d26f7ad8ae45b012ed2508ff1fd0e11dd28ee93
         --fs-56: 56px;
         --fs-100: 80px;
         --fs-110: 40px;
