@@ -212,7 +212,7 @@
     width: 0px;
     bottom: -5px;
     left: 0;
-    transition: all 0.5s linear;
+    transition: 0.9s;
 }
 
 .text_effect:hover::after {

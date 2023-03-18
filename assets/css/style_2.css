@@ -94,17 +94,19 @@
 
 .contact_button {
     border: 2px solid white;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 8px;
+    padding: 8px 20px;
 }
-
+/* 
 .max_w_110 {
     max-width: 110px;
-}
-.hover_gradient:hover .slider_gradient{
+} */
+
+.hover_gradient:hover .slider_gradient {
     z-index: 1;
 }
-.input_border{
+
+.input_border {
     border: transparent;
     border-bottom: 2px solid white;
 }
@@ -159,6 +161,7 @@
     .col_3 {
         width: 25%;
     }
+
     .lh_110 {
         line-height: 110px;
     }
