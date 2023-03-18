@@ -36,7 +36,7 @@
     --clr-brown_red: #872323;
     --clr-blue: #0A3F8F;
     --clr-gray: #BDBDBD;
-    --clr-off-white:#F2F2F2;
+    --clr-off-white: #F2F2F2;
 }
 
 
@@ -155,13 +155,21 @@
 .us_button_border {
     border: 2px solid var(--clr-white);
 }
+.us_button_border:hover {
+    border: 2px solid var(--clr-gray);
+}
+.hover_gray:hover{
+    color: var(--clr-gray) !important;
+}
 
 .clr_darkgray {
     color: var(--clr-dark_gray);
 }
-.clr_gray{
+
+.clr_gray {
     color: var(--clr-gray);
 }
+
 .bg_green {
     background-color: var(--clr-green);
 }
@@ -173,21 +181,34 @@
 .bg_blue {
     background-color: #0A3F8F;
 }
-.clr_offwhite{
+
+.clr_offwhite {
     color: var(--clr-off-white);
 }
-.outline_none{
+
+.outline_none {
     outline: none;
 }
-.btn_submit{
-    padding: 5px 20px ;
-    border: 2px solid white;
+
+.btn_submit {
+    padding: 5px 20px;
+    border: 2px solid var(--clr-white);
     border-radius: 10px;
 }
-.contact_img{
+
+.btn_submit:hover {
+    padding: 5px 20px;
+    border: 2px solid var(--clr-white);
+    border-radius: 10px;
+    background-color: var(--clr-white) !important;
+    color: var(--clr-darkblack) !important;
+}
+
+.contact_img {
     top: 45px;
     left: 0;
 }
+
 @media (max-width:1400px) {
     :root {
         /* Font size */

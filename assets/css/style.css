@@ -104,7 +104,7 @@
 .play_center {
     right: 50%;
     top: 50%;
-    transform: translate(-50% -50%) ;
+    transform: translate(-50% -50%);
 
 }
 
@@ -202,4 +202,19 @@
 
 .slick-prev:before {
     display: none;
+}
+
+.text_effect::after {
+    content: '';
+    position: absolute;
+    background: white;
+    height: 3px;
+    width: 0px;
+    bottom: -5px;
+    left: 0;
+    transition: all 0.5s linear;
+}
+
+.text_effect:hover::after {
+    width: 100%;
 }
