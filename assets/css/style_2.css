@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+
+html,
+body {
+    overflow-x: hidden !important;
+}
+
 .lh_28 {
     line-height: 28px;
 }
@@ -97,6 +103,7 @@
     border-radius: 8px;
     padding: 8px 20px;
 }
+
 /* 
 .max_w_110 {
     max-width: 110px;
@@ -126,7 +133,7 @@
     width: 100%;
 }
 
-.h_24{
+.h_24 {
     max-height: 24px;
 }
 
@@ -155,8 +162,8 @@
 
 @media (min-width:768px) {
     .lh_130 {
-            line-height: 130px;
-        }
+        line-height: 130px;
+    }
 }
 
 
@@ -221,7 +228,7 @@
 }
 
 @media (max-width:768px) {
-    .w_50{
+    .w_50 {
         max-width: 50px !important;
     }
 }
